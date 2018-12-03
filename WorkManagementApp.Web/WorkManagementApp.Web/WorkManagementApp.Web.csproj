@@ -15,4 +15,9 @@
     <Folder Include="Areas\Identity\Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WorkManagementApp.Data\WorkManagementApp.Data.csproj" />
+    <ProjectReference Include="..\WorkManagementApp.Models\WorkManagementApp.Models.csproj" />
+  </ItemGroup>
+
 </Project>

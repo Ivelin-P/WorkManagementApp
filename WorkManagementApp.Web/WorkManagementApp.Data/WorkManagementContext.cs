@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using WorkManagementApp.Web.Areas.Identity.Data;
+using WorkManagementApp.Models;
 
-namespace WorkManagementApp.Web.Models
+namespace WorkManagementApp.Data
 {
     public class WorkManagementContext : IdentityDbContext<WorkManagementUser>
     {

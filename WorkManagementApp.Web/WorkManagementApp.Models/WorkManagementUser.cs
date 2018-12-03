@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace WorkManagementApp.Web.Areas.Identity.Data
+namespace WorkManagementApp.Models
 {
     // Add profile data for application users by adding properties to the WorkManagementUser class
     public class WorkManagementUser : IdentityUser

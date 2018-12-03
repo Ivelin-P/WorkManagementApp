@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using WorkManagementApp.Web.Areas.Identity.Data;
+using WorkManagementApp.Models;
 
 namespace WorkManagementApp.Web.Areas.Identity.Pages.Account
 {

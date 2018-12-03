@@ -12,7 +12,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WorkManagementApp.Web.Models;
-using WorkManagementApp.Web.Areas.Identity.Data;
+using WorkManagementApp.Models;
+using WorkManagementApp.Data;
 
 namespace WorkManagementApp.Web
 {
